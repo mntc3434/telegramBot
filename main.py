@@ -2,9 +2,9 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-BOT_USERNAME: Final = '@huecsf_main_bot'
-OPENAI_API_KEY: Final = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+TOKEN: Final = ''
+BOT_USERNAME: Final = ''
+OPENAI_API_KEY: Final = ''
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello! Thanks for chatting with me ! I am banaba!')
