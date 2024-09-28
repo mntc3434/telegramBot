@@ -2,9 +2,9 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = '7117633491:AAFAWg9j3NiCEb6S5L0KrtfT3BG1Mq_iH9w'
+TOKEN: Final = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 BOT_USERNAME: Final = '@huecsf_main_bot'
-OPENAI_API_KEY: Final = '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'
+OPENAI_API_KEY: Final = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello! Thanks for chatting with me ! I am banaba!')
